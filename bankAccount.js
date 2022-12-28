@@ -1,9 +1,6 @@
 let yourBalance = parseInt(prompt("Qual o seu saldo atual?"));
 let options;
 
-deposit = 0;
-transfer = 0;
-
 do {
   options = parseInt(
     prompt(
@@ -30,7 +27,7 @@ do {
         break;
       }
     case 3:
-      alert("Fazendo Logout...");
+      alert("Saindo...");
       break;
 
     default:
